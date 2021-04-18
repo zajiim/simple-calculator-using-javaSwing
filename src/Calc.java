@@ -19,13 +19,13 @@ class Calc implements ActionListener{
 	public Calc() {
 		jf = new JFrame("Calculator");
 		jf.setLayout(null);
-		jf.setSize(400, 600);
+		jf.setSize(415, 600);
 		jf.setVisible(true);
 		jf.setLocation(1100, 120);
 		jf.getContentPane().setBackground(Color.DARK_GRAY);
 		
 		displayLabel = new JLabel(); 
-		displayLabel.setBounds(30, 50, 330, 50);
+		displayLabel.setBounds(30, 50, 340, 50);
 		displayLabel.setBackground(Color.gray);
 		displayLabel.setOpaque(true);
 		displayLabel.setHorizontalAlignment(SwingConstants.RIGHT);
